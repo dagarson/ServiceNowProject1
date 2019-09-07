@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>testscript</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+count.addAggregate('COUNT');
+count.query();
+var reimburse = 0;
+if (count.next()) {
+   reimburse = count.getAggregate('COUNT');
+}
+//Number of incidents varies depending on the current state
+//of the incident table
+gs.info('Number of incidents: ' + reimburse);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 13:48:59</sys_created_on>
+        <sys_id>3d1705f0db73330019d2656b4b9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testscript</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_script_fix_3d1705f0db73330019d2656b4b9619e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 13:48:59</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_script_fix_3d1705f0db73330019d2656b4b9619e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;testscript&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+count.addAggregate('COUNT');
+count.query();
+var reimburse = 0;
+if (count.next()) {
+   reimburse = count.getAggregate('COUNT');
+}
+//Number of incidents varies depending on the current state
+//of the incident table
+gs.info('Number of incidents: ' + reimburse);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-07 13:48:59&lt;/sys_created_on&gt;&lt;sys_id&gt;3d1705f0db73330019d2656b4b9619e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;testscript&lt;/sys_name&gt;&lt;sys_package display_value="ERF" source="x_393636_erf"&gt;40c76307db23330019d2656b4b961913&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERF"&gt;40c76307db23330019d2656b4b961913&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_3d1705f0db73330019d2656b4b9619e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-07 13:48:59&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1024350065</payload_hash>
+        <record_name>testscript</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 13:49:00</sys_created_on>
+        <sys_id>e02745f0db73330019d2656b4b9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0bfc30e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 13:49:00</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>2c2745f0117333008e69a0fe0e1c16b7</update_guid>
+        <update_guid_history>2c2745f0117333008e69a0fe0e1c16b7:1024350065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 15:08:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>1c4774c2af5d4660a1209e051ec93210</sys_id>
+        <sys_metadata>3d1705f0db73330019d2656b4b9619e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testscript</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_script_fix_3d1705f0db73330019d2656b4b9619e4</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_3d1705f0db73330019d2656b4b9619e4">e02745f0db73330019d2656b4b9619b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 15:08:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

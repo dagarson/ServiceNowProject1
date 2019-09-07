@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="DELETE">
+        <dl_definition display_value="erf lookup">3e01f864db77b30019d2656b4b96198a</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_393636_erf_datalookup_priority</matcher_table>
+        <matcher_table_field>urgency</matcher_table_field>
+        <source_table>x_393636_erf_reimbursement_table</source_table>
+        <source_table_field>urgency</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:36:02</sys_created_on>
+        <sys_id>c761fca4db77b30019d2656b4b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>urgency</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>dl_definition_rel_match_c761fca4db77b30019d2656b4b961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:36:02</sys_updated_on>
+    </dl_definition_rel_match>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>dl_definition_rel_match_c761fca4db77b30019d2656b4b961920</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match"><dl_definition_rel_match action="INSERT_OR_UPDATE"><dl_definition display_value="erf lookup">3e01f864db77b30019d2656b4b96198a</dl_definition><exact_match>false</exact_match><matcher_table>x_393636_erf_datalookup_priority</matcher_table><matcher_table_field>urgency</matcher_table_field><source_table>x_393636_erf_reimbursement_table</source_table><source_table_field>urgency</source_table_field><sys_class_name>dl_definition_rel_match</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 17:36:02</sys_created_on><sys_id>c761fca4db77b30019d2656b4b961920</sys_id><sys_mod_count>0</sys_mod_count><sys_name>urgency</sys_name><sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package><sys_policy/><sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope><sys_update_name>dl_definition_rel_match_c761fca4db77b30019d2656b4b961920</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 17:36:02</sys_updated_on></dl_definition_rel_match></record_update>]]></payload>
+        <payload_hash>877008712</payload_hash>
+        <record_name>urgency</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:36:02</sys_created_on>
+        <sys_id>b881f4e4db77b30019d2656b4b9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d07a5b1cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:36:02</sys_updated_on>
+        <type>Matcher Field Definitions</type>
+        <update_guid>f081f4e48777b300eff0f7f66e87d2b2</update_guid>
+        <update_guid_history>f081f4e48777b300eff0f7f66e87d2b2:877008712</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="urgency">0ce9d12cdbf7b30019d2656b4b9619c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 20:32:23</sys_created_on>
+        <sys_db_object display_value="" name="dl_definition_rel_match">dl_definition_rel_match</sys_db_object>
+        <sys_id>90b8e217e8dc46889b37f5ede2ae0240</sys_id>
+        <sys_metadata>c761fca4db77b30019d2656b4b961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>urgency</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>dl_definition_rel_match_c761fca4db77b30019d2656b4b961920</sys_update_name>
+        <sys_update_version display_value="dl_definition_rel_match_c761fca4db77b30019d2656b4b961920">b881f4e4db77b30019d2656b4b9619b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:32:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

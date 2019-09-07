@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var amount = g_form.getDecimalValue('travel_expense');
+	var t = g_form.getDecimalValue('u_currency_3');
+	var m = g_form.getDecimalValue('u_currency_5');
+	var w = g_form.getDecimalValue('u_currency_7');
+    var answer = amount + t + m + w;
+	
+	g_form.setValue('reimbursement_amount',answer);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 23:58:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0fe7c94db3b730019d2656b4b961974</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_script_client_d0fe7c94db3b730019d2656b4b961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:06:39</sys_updated_on>
+        <table>x_393636_erf_reimbursement_table</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_script_client_d0fe7c94db3b730019d2656b4b961974</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var amount = g_form.getDecimalValue('travel_expense');
+	var t = g_form.getDecimalValue('u_currency_3');
+	var m = g_form.getDecimalValue('u_currency_5');
+	var w = g_form.getDecimalValue('u_currency_7');
+    var answer = amount + t + m + w;
+	
+	g_form.setValue('reimbursement_amount',answer);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 23:58:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0fe7c94db3b730019d2656b4b961974&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ERF" source="x_393636_erf"&gt;40c76307db23330019d2656b4b961913&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERF"&gt;40c76307db23330019d2656b4b961913&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d0fe7c94db3b730019d2656b4b961974&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-06 00:06:39&lt;/sys_updated_on&gt;&lt;table&gt;x_393636_erf_reimbursement_table&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1037262512</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:06:39</sys_created_on>
+        <sys_id>70518d18db3b730019d2656b4b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d03e4f5650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:06:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f8518d18653b7300ecda13401b419015</update_guid>
+        <update_guid_history>f8518d18653b7300ecda13401b419015:-1037262512,3ecf38d4413b73009a231d506f9888d7:-1216298779,a58f74d43e3b7300d78c4b63bbc034fd:-1556050050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:08:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>04e187d3b5ee416a811d7fe5c4105a44</sys_id>
+        <sys_metadata>d0fe7c94db3b730019d2656b4b961974</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent display_value="Reimbursement table">2858f347db63330019d2656b4b9619f5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_script_client_d0fe7c94db3b730019d2656b4b961974</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d0fe7c94db3b730019d2656b4b961974">70518d18db3b730019d2656b4b961916</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:08:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

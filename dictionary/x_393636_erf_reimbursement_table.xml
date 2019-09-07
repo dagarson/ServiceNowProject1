@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="Reimbursement table" max_length="40" name="x_393636_erf_reimbursement_table" sizeclass="26" type="collection">
+        <element label="Employee" mandatory="true" max_length="50" name="employee" reference="sys_user" type="reference"/>
+        <element label="Expense Type" max_length="600" name="expense_type" type="string"/>
+        <element label="Full Conference Details" max_length="650" name="full_justification" type="string"/>
+        <element label="If Other" max_length="120" name="if_other" type="string"/>
+        <element choice="3" default="f" label="Mode of Travel" mandatory="true" max_length="40" name="mode_of_travel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Flight" sequence="0" value="f"/>
+                <element inactive_on_update="false" label="Train" sequence="1" value="t"/>
+                <element inactive_on_update="false" label="Bus" sequence="2" value="b"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="o"/>
+            </choice>
+        </element>
+        <element label="Conference Location" mandatory="true" max_length="100" name="official_place_of_visit" type="string"/>
+        <element label="Other Payment method" max_length="120" name="other_payment_method" type="string"/>
+        <element choice="1" label="Payment Method" max_length="40" name="payment_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cash" value="pm2"/>
+                <element inactive_on_update="false" label="Credit card" value="pm1"/>
+                <element inactive_on_update="false" label="Other" value="pm3"/>
+            </choice>
+        </element>
+        <element label="Reimbursement Amount" max_length="20" name="reimbursement_amount" type="currency"/>
+        <element label="Short Conference Explanation" mandatory="true" max_length="400" name="short_visit_justification" type="string"/>
+        <element choice="3" default="open" label="Status" max_length="40" name="status_of_erf_request" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="progress"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approve"/>
+                <element inactive_on_update="false" label="Onhold" sequence="3" value="hold"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="reject"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="complete"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="close"/>
+            </choice>
+        </element>
+        <element label="Conference End Date" max_length="40" name="travel_end_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Travel Expense" mandatory="true" max_length="20" name="travel_expense" type="currency"/>
+        <element label="Conference Start Date" max_length="40" name="travel_start_date" type="glide_date"/>
+        <element choice="3" label="Type of Travel" max_length="40" name="type_of_travel" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Business Class" sequence="0" value="f2"/>
+                <element inactive="true" inactive_on_update="true" label="Class 1" sequence="1" value="t1"/>
+                <element inactive="true" inactive_on_update="true" label="Class 2" sequence="2" value="t2"/>
+                <element inactive="true" inactive_on_update="true" label="Class 3" sequence="3" value="t3"/>
+                <element inactive="true" inactive_on_update="true" label="Economy" sequence="4" value="f1"/>
+                <element inactive="true" inactive_on_update="true" label="Full Sleeper" sequence="5" value="b3"/>
+                <element inactive="true" inactive_on_update="true" label="Luxury Seating" sequence="6" value="b1"/>
+                <element inactive="true" inactive_on_update="true" label="Semi Sleeper" sequence="7" value="b2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Type 1" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ground Transportation" sequence="0" value="gt1"/>
+                <element inactive_on_update="false" label="Meals" sequence="1" value="m1"/>
+                <element inactive_on_update="false" label="Lodging" sequence="2" value="l1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Type 2" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="Ground Transportation" sequence="0" value="ground transportation"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="Meal" sequence="1" value="m2"/>
+                <element inactive_on_update="false" label="Lodging" sequence="2" value="l2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Type 3" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="Ground Transportation" sequence="0" value="ground transportation"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="Meal" sequence="1" value="m3"/>
+                <element inactive_on_update="false" label="Lodging" sequence="2" value="l3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" default="0" label="Expense 1" max_length="20" name="u_currency_3" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Expense 2" max_length="20" name="u_currency_5" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Expense 3" max_length="20" name="u_currency_7" type="currency"/>
+    </element>
+</database>

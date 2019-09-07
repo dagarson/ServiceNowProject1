@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:06:18</sys_created_on>
+        <sys_id>b01bee70dbf7330019d2656b4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_393226_erf.manager</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_security_acl display_value="totalsScript">541bee70dbf7330019d2656b4b9619f4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b01bee70dbf7330019d2656b4b9619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:06:18</sys_updated_on>
+        <sys_user_role display_value="x_393226_erf.manager" name="x_393226_erf.manager">452ea8d8db7b3300e86f2a36ca961951</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

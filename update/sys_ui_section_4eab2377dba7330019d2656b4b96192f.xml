@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Information" section_id="4eab2377dba7330019d2656b4b96192f" sys_domain="global" table="x_393636_erf_reimbursement_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_visit_justification</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 23:26:51</sys_created_on>
+            <sys_id>8caea33bdba7330019d2656b4b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_393636_erf_reimbursement_table" sys_domain="global" view="Default view">4eab2377dba7330019d2656b4b96192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 23:26:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_justification</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 23:26:51</sys_created_on>
+            <sys_id>00aea33bdba7330019d2656b4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_393636_erf_reimbursement_table" sys_domain="global" view="Default view">4eab2377dba7330019d2656b4b96192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 23:26:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Information</caption>
+            <header>false</header>
+            <name>x_393636_erf_reimbursement_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 23:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4eab2377dba7330019d2656b4b96192f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+            <sys_update_name>sys_ui_section_4eab2377dba7330019d2656b4b96192f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 23:26:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

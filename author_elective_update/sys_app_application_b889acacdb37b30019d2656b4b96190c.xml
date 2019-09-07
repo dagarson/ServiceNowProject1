@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>DataLookup</name>
+        <order>100</order>
+        <roles>x_393636_erf.datalookup_user,x_393636_erf.reimbursement_table_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:01:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b889acacdb37b30019d2656b4b96190c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DataLookup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_app_application_b889acacdb37b30019d2656b4b96190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:09:49</sys_updated_on>
+        <title>DataLookup</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_app_application_b889acacdb37b30019d2656b4b96190c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>DataLookup</name><order>100</order><roles>x_393636_erf.datalookup_user,x_393636_erf.reimbursement_table_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 17:01:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b889acacdb37b30019d2656b4b96190c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>DataLookup</sys_name><sys_overrides/><sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package><sys_policy/><sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope><sys_update_name>sys_app_application_b889acacdb37b30019d2656b4b96190c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 17:09:49</sys_updated_on><title>DataLookup</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>581367302</payload_hash>
+        <record_name>DataLookup</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:09:49</sys_created_on>
+        <sys_id>248b6060db77b30019d2656b4b96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d078db1410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:09:49</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>ac8b60609b77b300a1393ff10fe0bb89</update_guid>
+        <update_guid_history>ac8b60609b77b300a1393ff10fe0bb89:581367302,3889e0ecdc37b3004a53df3f21d1c31b:-208706626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DataLookup">123d60e0db77b30019d2656b4b96191e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:17:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>8155163a0da2495182eb83dcec1cd759</sys_id>
+        <sys_metadata>b889acacdb37b30019d2656b4b96190c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataLookup</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_app_application_b889acacdb37b30019d2656b4b96190c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_b889acacdb37b30019d2656b4b96190c">248b6060db77b30019d2656b4b96198a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:17:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

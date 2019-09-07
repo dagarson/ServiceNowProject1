@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_393636_erf.recordNumber</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>recordNumber</name>
+        <script><![CDATA[var recordNumber = Class.create();
+recordNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   getEmployeeTotal: function() {
+
+        var userID = gs.getUserID();
+        var employee = this.getParameter('sysparm_employee');
+
+        if (userID == employee) {
+            var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+            count.addEncodedQuery('employee=' + userID);
+            count.addAggregate('COUNT');
+            count.query();
+
+            var total = 0;
+            if (count.next()) {
+                total = count.getAggregate('COUNT');
+            }
+            return total;
+
+        } else {
+            return false;
+        }
+    },
+	// 	Returns the total number of records in the ERF table.
+    getTotal: function() {
+
+        var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+        count.addAggregate('COUNT');
+        count.query();
+
+        var total = 0;
+        if (count.next()) {
+            total = count.getAggregate('COUNT');
+        }
+
+        return total;
+    },
+    type: 'recordNumber'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 12:29:26</sys_created_on>
+        <sys_id>e1147870db33330019d2656b4b96192a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>recordNumber</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_script_include_e1147870db33330019d2656b4b96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 12:41:51</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_script_include_e1147870db33330019d2656b4b96192a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_393636_erf.recordNumber&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;recordNumber&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var recordNumber = Class.create();
+recordNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   getEmployeeTotal: function() {
+
+        var userID = gs.getUserID();
+        var employee = this.getParameter('sysparm_employee');
+
+        if (userID == employee) {
+            var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+            count.addEncodedQuery('employee=' + userID);
+            count.addAggregate('COUNT');
+            count.query();
+
+            var total = 0;
+            if (count.next()) {
+                total = count.getAggregate('COUNT');
+            }
+            return total;
+
+        } else {
+            return false;
+        }
+    },
+	// 	Returns the total number of records in the ERF table.
+    getTotal: function() {
+
+        var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+        count.addAggregate('COUNT');
+        count.query();
+
+        var total = 0;
+        if (count.next()) {
+            total = count.getAggregate('COUNT');
+        }
+
+        return total;
+    },
+    type: 'recordNumber'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-07 12:29:26&lt;/sys_created_on&gt;&lt;sys_id&gt;e1147870db33330019d2656b4b96192a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;recordNumber&lt;/sys_name&gt;&lt;sys_package display_value="ERF" source="x_393636_erf"&gt;40c76307db23330019d2656b4b961913&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ERF"&gt;40c76307db23330019d2656b4b961913&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e1147870db33330019d2656b4b96192a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-07 12:41:51&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-236516110</payload_hash>
+        <record_name>recordNumber</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 12:41:51</sys_created_on>
+        <sys_id>41c7b0b4db33330019d2656b4b9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0bbeb8430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 12:41:51</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c9c7b0b48b333300947e0336d7e8ddf2</update_guid>
+        <update_guid_history>c9c7b0b48b333300947e0336d7e8ddf2:-236516110,6e77b0740e333300caee2f1e2dc911c5:-1111667736,9fe438f0dc3333005c5238cca683edc3:2023215848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 12:48:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>47777b0148a44cd897637d193acd7f89</sys_id>
+        <sys_metadata>e1147870db33330019d2656b4b96192a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recordNumber</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_script_include_e1147870db33330019d2656b4b96192a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_e1147870db33330019d2656b4b96192a">41c7b0b4db33330019d2656b4b9619f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 12:48:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

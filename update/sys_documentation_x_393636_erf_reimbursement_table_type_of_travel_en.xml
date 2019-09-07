@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="type_of_travel" label="Type of Travel" language="en" table="x_393636_erf_reimbursement_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type_of_travel</element>
+            <help/>
+            <hint/>
+            <label>Type of Travel</label>
+            <language>en</language>
+            <name>x_393636_erf_reimbursement_table</name>
+            <plural>Type of Travels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-02 16:26:49</sys_created_on>
+            <sys_id>ef4bbb4bdb63330019d2656b4b96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type of Travel</sys_name>
+            <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+            <sys_update_name>sys_documentation_x_393636_erf_reimbursement_table_type_of_travel_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-02 16:26:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

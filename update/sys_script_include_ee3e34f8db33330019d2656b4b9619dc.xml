@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_393636_erf.totalsScript</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>totalsScript</name>
+        <script><![CDATA[var totalsScript = Class.create();
+totalsScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getEmployeeTotal: function() {
+
+        var userID = gs.getUserID();
+        var employee = this.getParameter('sysparm_employee');
+
+        if (userID == employee) {
+            var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+            count.addEncodedQuery('employee=' + userID);
+            count.addAggregate('COUNT');
+            count.query();
+
+            var total = 0;
+            if (count.next()) {
+                total = count.getAggregate('COUNT');
+            }
+            return total;
+
+        } else {
+            return false;
+        }
+    },
+
+    // 	Returns the total number of records in the ERF table.
+    getTotal: function() {
+
+        var count = new GlideAggregate('x_393636_erf_reimbursement_table');
+        count.addAggregate('COUNT');
+        count.query();
+
+        var total = 0;
+        if (count.next()) {
+            total = count.getAggregate('COUNT');
+        }
+
+        return total;
+    },
+
+    type: 'totalsScript'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 13:13:14</sys_created_on>
+        <sys_id>ee3e34f8db33330019d2656b4b9619dc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>totalsScript</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_script_include_ee3e34f8db33330019d2656b4b9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 20:57:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

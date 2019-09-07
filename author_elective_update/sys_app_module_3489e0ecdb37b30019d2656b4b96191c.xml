@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="DataLookup">b889acacdb37b30019d2656b4b96190c</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>DataLookups</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_393636_erf_datalookup</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_393636_erf.datalookup_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:01:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3489e0ecdb37b30019d2656b4b96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataLookups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_app_module_3489e0ecdb37b30019d2656b4b96191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:01:05</sys_updated_on>
+        <timeline_page/>
+        <title>DataLookups</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_app_module_3489e0ecdb37b30019d2656b4b96191c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="DataLookup">b889acacdb37b30019d2656b4b96190c</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>DataLookups</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_393636_erf_datalookup</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_393636_erf.datalookup_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 17:01:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3489e0ecdb37b30019d2656b4b96191c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DataLookups</sys_name><sys_overrides/><sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package><sys_policy/><sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope><sys_update_name>sys_app_module_3489e0ecdb37b30019d2656b4b96191c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 17:01:05</sys_updated_on><timeline_page/><title>DataLookups</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1506270967</payload_hash>
+        <record_name>DataLookups</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:01:05</sys_created_on>
+        <sys_id>3089e0ecdb37b30019d2656b4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0785b2260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:01:05</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7889e0ec7537b3009c1f53dbfc30e71d</update_guid>
+        <update_guid_history>7889e0ec7537b3009c1f53dbfc30e71d:-1506270967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DataLookups">d36b2460db77b30019d2656b4b961902</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:09:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>10a863ad441e4d009dbb3ac23d9cf4c1</sys_id>
+        <sys_metadata>3489e0ecdb37b30019d2656b4b96191c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataLookups</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_app_module_3489e0ecdb37b30019d2656b4b96191c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3489e0ecdb37b30019d2656b4b96191c">3089e0ecdb37b30019d2656b4b96191e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:09:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_393636_erf.erf_data_lookup_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>erf_data_lookup_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:18:48</sys_created_on>
+        <sys_id>9c9da0e0db77b30019d2656b4b9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393636_erf.erf_data_lookup_user</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_user_role_9c9da0e0db77b30019d2656b4b9619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:18:48</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_user_role_9c9da0e0db77b30019d2656b4b9619de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_393636_erf.erf_data_lookup_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>erf_data_lookup_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 17:18:48</sys_created_on><sys_id>9c9da0e0db77b30019d2656b4b9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_393636_erf.erf_data_lookup_user</sys_name><sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package><sys_policy/><sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope><sys_update_name>sys_user_role_9c9da0e0db77b30019d2656b4b9619de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 17:18:48</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1953015048</payload_hash>
+        <record_name>x_393636_erf.erf_data_lookup_user</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:18:48</sys_created_on>
+        <sys_id>d89da0e0db77b30019d2656b4b9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0795eb8b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:18:48</sys_updated_on>
+        <type>Role</type>
+        <update_guid>149da0e0bf77b3002a2f3d91a40c37e2</update_guid>
+        <update_guid_history>149da0e0bf77b3002a2f3d91a40c37e2:-1953015048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_393636_erf.erf_data_lookup_user">800ad52cdbf7b30019d2656b4b961975</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 20:32:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>d689dc30fd2243e0a7dec9483271e400</sys_id>
+        <sys_metadata>9c9da0e0db77b30019d2656b4b9619de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393636_erf.erf_data_lookup_user</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_user_role_9c9da0e0db77b30019d2656b4b9619de</sys_update_name>
+        <sys_update_version display_value="sys_user_role_9c9da0e0db77b30019d2656b4b9619de">d89da0e0db77b30019d2656b4b9619e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:32:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

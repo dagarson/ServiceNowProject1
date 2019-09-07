@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition">
+    <dl_definition action="DELETE">
+        <active>true</active>
+        <matcher_table>x_393636_erf_datalookup</matcher_table>
+        <name>Prioity lookup</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>true</run_on_update>
+        <source_table>x_393636_erf_reimbursement_table</source_table>
+        <sys_class_name>dl_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:01:50</sys_created_on>
+        <sys_id>e89964ecdb37b30019d2656b4b96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prioity lookup</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>dl_definition_e89964ecdb37b30019d2656b4b96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:01:50</sys_updated_on>
+    </dl_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>dl_definition_e89964ecdb37b30019d2656b4b96193c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition"><dl_definition action="INSERT_OR_UPDATE"><active>true</active><matcher_table>x_393636_erf_datalookup</matcher_table><name>Prioity lookup</name><run_on_form_change>true</run_on_form_change><run_on_insert>true</run_on_insert><run_on_update>true</run_on_update><source_table>x_393636_erf_reimbursement_table</source_table><sys_class_name>dl_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 17:01:50</sys_created_on><sys_id>e89964ecdb37b30019d2656b4b96193c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Prioity lookup</sys_name><sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package><sys_policy/><sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope><sys_update_name>dl_definition_e89964ecdb37b30019d2656b4b96193c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 17:01:50</sys_updated_on></dl_definition></record_update>]]></payload>
+        <payload_hash>-471155299</payload_hash>
+        <record_name>Prioity lookup</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:01:50</sys_created_on>
+        <sys_id>a7a964ecdb37b30019d2656b4b961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d078661170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:01:50</sys_updated_on>
+        <type>Data Lookup Definitions</type>
+        <update_guid>efa924ec9b37b300bf0332b1668276ff</update_guid>
+        <update_guid_history>efa924ec9b37b300bf0332b1668276ff:-471155299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Prioity lookup">5e1daca0db77b30019d2656b4b961959</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 17:16:45</sys_created_on>
+        <sys_db_object display_value="" name="dl_definition">dl_definition</sys_db_object>
+        <sys_id>3a2ee6473ec94ba287f6c35f4b328899</sys_id>
+        <sys_metadata>e89964ecdb37b30019d2656b4b96193c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prioity lookup</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>dl_definition_e89964ecdb37b30019d2656b4b96193c</sys_update_name>
+        <sys_update_version display_value="dl_definition_e89964ecdb37b30019d2656b4b96193c">a7a964ecdb37b30019d2656b4b961900</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 17:16:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

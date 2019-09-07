@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>client script will run if employee excedes budget of  3 thousand dollars</description>
+        <field>reimbursement_amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>overBudget</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var price = g_form.getValue('reimbursment_amount');
+   //Type appropriate comment here, and begin script below
+	
+	if(price >3000.00){
+		alert("test");
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-02 22:06:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d06c59fdb67330019d2656b4b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>overBudget</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_update_name>sys_script_client_8d06c59fdb67330019d2656b4b96192e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-02 22:06:11</sys_updated_on>
+        <table>x_393636_erf_reimbursement_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">40c76307db23330019d2656b4b961913</application>
+        <file_path/>
+        <instance_id>d50bb6f2db5077408aea21c4059619d0</instance_id>
+        <instance_name>dev76919</instance_name>
+        <name>sys_script_client_8d06c59fdb67330019d2656b4b96192e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;client script will run if employee excedes budget of  3 thousand dollars&lt;/description&gt;&lt;field&gt;reimbursement_amount&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;overBudget&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var price = g_form.getValue('reimbursment_amount');
+   //Type appropriate comment here, and begin script below
+	
+	if(price &gt;3000.00){
+		alert("test");
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-02 22:06:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8d06c59fdb67330019d2656b4b96192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;overBudget&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ERF" source="x_393636_erf"&gt;40c76307db23330019d2656b4b961913&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERF"&gt;40c76307db23330019d2656b4b961913&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8d06c59fdb67330019d2656b4b96192e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-02 22:06:11&lt;/sys_updated_on&gt;&lt;table&gt;x_393636_erf_reimbursement_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-294806105</payload_hash>
+        <record_name>overBudget</record_name>
+        <reverted_from/>
+        <source>54c76307db23330019d2656b4b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-02 22:06:11</sys_created_on>
+        <sys_id>fef80113dba7330019d2656b4b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cf40396290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-02 22:06:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3af8011334a7330071bc1f379d22a44e</update_guid>
+        <update_guid_history>3af8011334a7330071bc1f379d22a44e:-294806105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-02 22:08:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1cce20a5ee2642228544c4f541a3e541</sys_id>
+        <sys_metadata>8d06c59fdb67330019d2656b4b96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>overBudget</sys_name>
+        <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+        <sys_parent display_value="Reimbursement table">2858f347db63330019d2656b4b9619f5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+        <sys_scope_delete display_value="">11368014e1394880a02aa9d04babd100</sys_scope_delete>
+        <sys_update_name>sys_script_client_8d06c59fdb67330019d2656b4b96192e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8d06c59fdb67330019d2656b4b96192e">fef80113dba7330019d2656b4b96194e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-02 22:08:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

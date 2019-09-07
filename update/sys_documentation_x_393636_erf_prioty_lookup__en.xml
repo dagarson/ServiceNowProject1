@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="prioty_lookup" language="en" table="x_393636_erf_prioty_lookup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>prioty_lookup</label>
+            <language>en</language>
+            <name>x_393636_erf_prioty_lookup</name>
+            <plural>prioty_lookups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 22:20:51</sys_created_on>
+            <sys_id>bcb23da4db7bb30019d2656b4b9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>prioty_lookup</sys_name>
+            <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
+            <sys_update_name>sys_documentation_x_393636_erf_prioty_lookup__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 22:20:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
