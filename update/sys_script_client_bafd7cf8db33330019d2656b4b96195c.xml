@@ -14,32 +14,30 @@
 	
     // 	If this is a new record then get the total and display it.
     if (g_form.isNewRecord()) {
-        var gaE = new GlideAjax('totalsScript');
-        gaE.addParam('sysparm_name', 'getEmployeeTotal');
-        gaE.addParam('sysparm_employee', g_form.getValue('employee'));
-        gaE.getXML(parseEmployee);
+        var employ = new GlideAjax('totalsScript');
+        employ.addParam('sysparm_name', 'getEmployeeTotal');
+        employ.addParam('sysparm_employee', g_form.getValue('employee'));
+        employ.getXML(parseEmployee);
 
-        var gaT = new GlideAjax('totalsScript');
-        gaT.addParam('sysparm_name', 'getTotal');
-        gaT.getXML(parseTotal);
+        var total = new GlideAjax('totalsScript');
+        total.addParam('sysparm_name', 'getTotal');
+        total.getXML(parseTotal);
     }
-    // 	Otherwise do nothing.
     else {
         return;
     }
 }
 
-// Callback function to parse the XML response for gaE
+// Callback function 
 function parseEmployee(response) {
     var answer = response.responseXML.documentElement.getAttribute('answer');
-	alert('answer = ' + answer);
     if (answer != 'false') {
         switch (answer <= 1) {
             case true:
                 alert('This is your first request submission');
                 break;
             case false:
-                alert('You have already submited ' + (answer - 1) + ' requests previously.\n You have now submitted a total of ' + answer + ' requests.');
+                alert('You have already submited  a total of ' + answer + ' requests.');
                 break;
         }
     }
@@ -49,9 +47,9 @@ function parseEmployee(response) {
 function parseTotal(response) {
     var answer = response.responseXML.documentElement.getAttribute('answer');
     if (answer <= 1) {
-        alert('This is the first request submission');
+        alert('This is the first submission');
     } else {
-        alert('There are currently ' + (answer - 1) + ' existing records.\nThis will be number ' + answer);
+        alert('There are  ' + answer + ' records.');
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -60,7 +58,7 @@ function parseTotal(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bafd7cf8db33330019d2656b4b96195c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Manage Submission</sys_name>
         <sys_overrides/>
         <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
@@ -68,7 +66,7 @@ function parseTotal(response) {
         <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
         <sys_update_name>sys_script_client_bafd7cf8db33330019d2656b4b96195c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-07 20:58:31</sys_updated_on>
+        <sys_updated_on>2019-09-08 15:27:17</sys_updated_on>
         <table>x_393636_erf_reimbursement_table</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

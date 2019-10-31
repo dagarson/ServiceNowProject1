@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="task" label="Reimbursement table" max_length="40" name="x_393636_erf_reimbursement_table" sizeclass="26" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Reimbursement table" max_length="40" name="x_393636_erf_reimbursement_table" sizeclass="6" type="collection">
         <element label="Employee" mandatory="true" max_length="50" name="employee" reference="sys_user" type="reference"/>
         <element label="Expense Type" max_length="600" name="expense_type" type="string"/>
         <element label="Full Conference Details" max_length="650" name="full_justification" type="string"/>

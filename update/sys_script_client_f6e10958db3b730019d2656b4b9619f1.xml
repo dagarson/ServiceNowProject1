@@ -15,6 +15,7 @@
       return;
    }
 
+	//add reimbursement values to calculate totals
 	var amount = g_form.getDecimalValue('travel_expense');
 	var t = g_form.getDecimalValue('u_currency_3');
 	var m = g_form.getDecimalValue('u_currency_5');
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f6e10958db3b730019d2656b4b9619f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>add reimbursments </sys_name>
         <sys_overrides/>
         <sys_package display_value="ERF" source="x_393636_erf">40c76307db23330019d2656b4b961913</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="ERF">40c76307db23330019d2656b4b961913</sys_scope>
         <sys_update_name>sys_script_client_f6e10958db3b730019d2656b4b9619f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-06 00:18:11</sys_updated_on>
+        <sys_updated_on>2019-09-08 15:21:52</sys_updated_on>
         <table>x_393636_erf_reimbursement_table</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
